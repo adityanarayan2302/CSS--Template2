@@ -16,7 +16,7 @@
   margin-right: 100px;
   margin-top: 50px;
   height: auto;
-  background-color: rgb(231, 229, 229);
+  background-color: #eeeeee;
 }
 #Learn_more_button {
   padding: 5px;
@@ -60,7 +60,7 @@
 .grey_image {
   width: 300px;
   height: 150px;
-  background-color: rgb(231, 229, 229);
+  background-color: #eeeeee;
 }
 /* this is the subscribe us part */
 #content3 {
@@ -68,7 +68,7 @@
   max-width: 100%;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: rgb(231, 229, 229);
+  background-color: #eeeeee;
   display: flex;
   justify-content: center;
 }
@@ -93,7 +93,7 @@
 #submit_span {
   margin-left: -65px;
   font-size: larger;
-  color: rgb(255, 255, 255);
+  color: #eeeeee;
 }
 
 /* defining media query to style desktop site */
