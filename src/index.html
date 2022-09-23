@@ -1,13 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to CSS file -->
+    <link rel="stylesheet" href="./CSS/style.css" />
     <title>CSS Template 2</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- this is the top div container -->
+    <div id="container">
+      <!-- Navigation bar is defined here -->
+      <div id="navbar">
+        <div id="site_logo">
+          <h1>Site Logo</h1>
+        </div>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Company</a></li>
+        </ul>
+      </div>
+      <!-- this is the first content part of the website -->
+      <div id="content1">
+        <div id="div_left">
+          <h1>We Power eCommerce</h1>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+            earum, cupiditate porro excepturi molestias at adipisci quaerat quis
+            accusamus corrupti mollitia quisquam? Reprehenderit eius vitae
+            architecto enim repellendus facilis corporis!
+          </p>
+          <br />
+          <button id="Learn_more_button" type="button">Learn More</button>
+        </div>
+      </div>
+
+      <!-- this is the second content part where cards are defined -->
+      <div id="content2">
+        <div class="inline_elements">
+          <div class="card">
+            <div class="grey_image"></div>
+
+            <h2 class="head">Heading 1</h2>
+
+            <p class="para1">Some content here</p>
+
+            <p class="para2">Some content here</p>
+            <br />
+            <a class="link1" href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="inline_elements">
+          <div class="card">
+            <div class="grey_image"></div>
+
+            <h2 class="head">Heading 1</h2>
+
+            <p class="para1">Some content here</p>
+
+            <p class="para2">Some content here</p>
+            <br />
+            <a class="link1" href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="inline_elements">
+          <div class="card">
+            <div class="grey_image"></div>
+
+            <h2 class="head">Heading 1</h2>
+
+            <p class="para1">Some content here</p>
+
+            <p class="para2">Some content here</p>
+            <br />
+            <a class="link1" href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!-- this part contains the subscribe us part  -->
+      <div id="content3">
+        <h1 id="subscribe_heading">Subscribe us</h1>
+        <input id="email" type="email" placeholder="Text Box" required />
+        <button id="Submit_button" type="submit">
+          <span id="submit_span"> <b> Submit</b></span>
+        </button>
+      </div>
+      <!-- footer is defined here  -->
+      <div id="footer">
+        <p class="p_footer">COPYRIGHT @</p>
+        <p class="p_footer" id="p_right">CEDCOSS Technologies</p>
+      </div>
+    </div>
+  </body>
 </html>

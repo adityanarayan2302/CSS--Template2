@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* defining navbar div as relative */
+#navbar {
+  position: relative;
+  height: 120px;
+}
+
+#content1 {
+  min-width: 295px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  height: auto;
+  background-color: rgb(231, 229, 229);
+}
+#Learn_more_button {
+  padding: 5px;
+}
+
+#div_left {
+  max-width: 400px;
+  padding: 40px 40px 50px 50px;
+}
+#content2 {
+  margin-left: 55px;
+}
+/* defining this div as inline block as cards are placed side by side */
+.inline_elements {
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 50px;
+}
+/* this part contains card elements */
+.card {
+  height: 350px;
+  text-align: center;
+}
+.head {
+  text-align: center;
+
+  padding-top: 20px;
+}
+.para1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.para2 {
+  text-align: center;
+}
+.link1 {
+  margin-top: 20px;
+}
+
+.grey_image {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(231, 229, 229);
+}
+/* this is the subscribe us part */
+#content3 {
+  height: 100px;
+  max-width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(231, 229, 229);
+  display: flex;
+  justify-content: center;
+}
+#subscribe_heading {
+  margin-top: 25px;
+}
+#email {
+  padding: 10px;
+  width: 300px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+#Submit_button {
+  width: 200px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: #288acf;
+  border: none;
+}
+#submit_span {
+  margin-left: -65px;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+}
+
+/* defining media query to style desktop site */
+@media screen and (min-width: 481px) {
+  li {
+    display: inline;
+  }
+
+  li a {
+    padding: 25px;
+    color: rgb(0, 0, 255);
+  }
+
+  #site_logo {
+    position: absolute;
+    left: 125px;
+    bottom: 0;
+  }
+
+  ul {
+    position: absolute;
+    top: 50px;
+    right: 125px;
+  }
+}
+
+/* making subscribe us container smaller for smaller screen size */
+@media screen and (max-width: 940px) {
+  #content3 {
+    display: block;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    margin-left: 110px;
+  }
+
+  #subscribe_heading {
+    padding-top: 30px;
+  }
+  #email {
+    width: auto;
+  }
+  #Submit_button {
+    margin-bottom: 25px;
+  }
+}
+/* defining footer styles */
+#footer {
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 140px;
+  margin-bottom: 30px;
+}
+.p_footer {
+  display: inline;
+}
+#p_right {
+  float: right;
+}
+/* defining media query for navbar for smaller devices  */
+@media screen and (max-width: 480px) {
+  li {
+    display: inline;
+  }
+
+  li a {
+    padding: 25px;
+    color: rgb(0, 0, 255);
+  }
+
+  #site_logo {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+  }
+
+  ul {
+    list-style-type: none;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+
+  .p_footer {
+    display: block;
+  }
+
+  #p_right {
+    float: none;
+  }
+}
