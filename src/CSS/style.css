@@ -12,8 +12,8 @@
 
 #content1 {
   min-width: 295px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 50px;
   height: auto;
   background-color: #eeeeee;
@@ -27,14 +27,25 @@
   padding: 40px 40px 50px 50px;
 }
 #content2 {
-  margin-left: 55px;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: center;
 }
 /* defining this div as inline block as cards are placed side by side */
 .inline_elements {
-  display: inline-block;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-top: 50px;
+}
+@media screen and (max-width: 1110px){
+  #content2{
+    display: block;
+  }
+  .grey_image{
+    margin: auto;
+  }
+  
 }
 /* this part contains card elements */
 .card {
@@ -66,8 +77,8 @@
 #content3 {
   height: 100px;
   max-width: 100%;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
   background-color: #eeeeee;
   display: flex;
   justify-content: center;
@@ -127,7 +138,7 @@
     height: 250px;
     width: 300px;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 8%;
   }
 
   #subscribe_heading {
